@@ -1,0 +1,454 @@
+
+body{
+	text-align:center;
+}
+#wholeBody{
+	width:1020px;
+	margin: 20px auto;
+	background:#FFFFFF;
+    border:1px solid #C0C0C0;
+   -webkit-border-radius:15px;
+}
+#underline{
+	text-decoration:none;
+}
+#topHead{
+	display:block;
+	border:2px solid #581845;
+	margin:0px;
+	text-align:center;
+	vertical-align: middle;
+	background:white;
+	-webkit-border-radius:15px;
+}
+
+#sidebar{
+	float:left;
+	text-align:left;
+	border:1px solid #1A8DA9;
+	position:relative;
+	width:240px;
+	height:500px;
+	margin:10px;
+	background:#1A8DA9;
+    overflow:auto;
+	
+}
+
+#sidebar a{
+	padding-right:100px;
+	padding:5px;
+		text-decoration:none;
+		
+        color:white;		
+}
+
+#sidebar ul li{
+	padding:15px;
+	display:block;
+	list-style-type:none;
+	border-bottom:1px solid #C0C0C0;
+	
+}
+#sidebar ul li :hover{
+	background:#4097AD;
+	color:black;
+}
+#sidebar ul li a :hover{
+	color:black;
+}
+.selected{
+	background:white;
+}
+.selected a{
+	color:black;
+}
+span{margin-right:7px;}
+
+#mainbody{
+	margin:12px;
+	float:left;
+	width:710px;
+    border:1px solid #C0C0C0;
+
+	height:500px;
+	position:relative;
+}
+#foot{
+	clear:both;
+	height:10%;
+	position:relative;
+	text-align:center;
+	/*border:1px solid #C0C0C0;*/
+	-webkit-border-radius:5px;
+	
+}
+
+/* The element to apply the animation to */
+
+#content{
+	border:1px solid #C0C0C0;
+	margin:10px;
+	padding:20px;
+	height:300px;
+	width:640px;
+	box-shadow: 4px 4px 3px #888888;
+
+	overflow:auto;
+}
+
+#content td{
+	padding:10px;
+	
+}
+
+
+
+#deleteacc{
+	border:1px solid black;
+	height:120px;
+	width:670px;
+	position:relative;
+	top:50%;
+	transform: translateY(-50%);
+
+}
+
+#delinside{
+	position:relative;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+#locsearch{
+	text-align:left;
+	border:1px solid #E5E8E8;
+	height:80px;
+	width:650px;
+	margin-bottom:20px;
+		background: #E5E8E8;
+
+	box-shadow: 4px 4px 3px #888888;
+
+	
+}
+
+#insideloc{
+	position:relative;
+	top:50%;
+	transform: translateY(-50%);
+	padding-left:20px;
+}
+#logoadmin{
+border:1px solid white;
+background:white;
+position:relative;
+height:100px;
+width:110px;
+margin-left:20px;
+
+}
+
+#textadmin{
+	font:bold 35px century white;
+	color: #581845;
+	text-shadow:rgb(110,110,110) 6px 6px 5px;
+	position:absolute;
+	left:480px;
+	top:30px;
+	
+}
+#divtop{
+		text-decoration:none;
+background:white;
+position:absolute;
+top:80px;
+height:19px;
+width:110px;
+margin-left:900px;
+
+}
+#msg5{
+	
+	position:absolute;
+	top:190px;
+	left:210px;
+	color:green;
+}
+.messageadmin{
+	
+	border:1px solid #FBEEE6;
+	margin-bottom:20px;
+	color:Black;
+	height:305px;
+	width:645px;
+	background:#FBEEE6;
+	box-shadow: 4px 4px 3px #888888;
+
+}
+.Divmessage{
+		text-align:left;
+
+	border:1px solid #C0C0C0  ;
+	margin-bottom:20px;
+	height:150px;
+	width:650px;
+		background:#fdfefe ;
+		color:black;
+
+	box-shadow: 4px 4px 3px #888888;
+	overflow:auto;
+}
+#top{
+	text-decoration:none;
+	font-size:35px;
+	color:  #5b2c6f  ;
+}
+#logo{
+border:1px solid white;
+background:white;
+position:relative;
+height:100px;
+width:110px;
+margin-left:20px;
+
+}
+
+.divorderimagecontainer{
+	position:relative;
+	height:100px;
+	width:100px;
+	float:left;
+	margin-left:20px;
+
+}
+.divorderimagecontainer img {
+width: 100%;
+height: 100%;
+}
+
+.DivPlaceOrder{
+	border:1px solid #C0C0C0;
+	margin-bottom:25px;
+	height:100px;
+	width:650px;
+	background: white;
+
+	box-shadow: 8px 8px 8px #888888;
+	
+}
+.OrderHistoryDiv{
+	border:1px solid #C0C0C0;
+	background: white;
+
+	box-shadow: 8px 8px 8px #888888;
+	margin-bottom:25px;
+	height:240px;
+	width:650px;
+}
+
+.divordertext{
+	position:relative;
+	height:100px;
+	width:420px;
+	float:left;
+	text-align:left;
+	padding-top:25px;
+	margin-left:40px;
+	
+}
+
+.divOrderHistory{
+	border:1px solid black;
+	margin-bottom:20px;
+	height:100px;
+	width:650px;
+	
+}
+a.fill-div{
+	display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.menuitem{
+box-shadow: 4px 4px 3px #888888;
+
+	border:1px solid #C0C0C0;
+	background: white;	
+	width:400px;
+	height:80px;
+	margin-bottom:10px;
+	margin-top:10px;
+	margin-right:10px;
+	
+}
+.cartbu{
+	color:white;
+	background:green;
+}
+
+.menuimagecontainer{
+	position:relative;
+	height:80px;
+	width:80px;
+	float:left;
+	margin-left:20px;
+
+}
+
+.menuimagecontainer img {
+width: 100%;
+height: 100%;
+}
+.addimagecontainer{
+	position:relative;
+	height:80px;
+	width:80px;
+	float:left;
+	margin-left:20px;
+
+	
+}
+
+.addimagecontainer img {
+width: 100%;
+height: 100%;
+}
+.addtext{
+	position:relative;
+	height:80px;
+	width:150px;
+	float:left;
+	text-align:left;
+	padding-top:25px;
+	margin-left:40px;
+}
+#addmenu{
+
+	position:relative;
+	top:55%;
+	transform: translateY(-60%);
+	
+}
+
+#addtable{
+	width:300px;
+	left:190px;
+	position:relative;
+	box-shadow: 4px 4px 3px #818888;
+	border:1px solid #C0C0C0;
+	background:white;
+}
+#restaurantname{
+	box-shadow: 4px 4px 3px #888888;
+	border:1px solid #008080;
+	background: #008080;
+	color:white;
+	height:30px;
+	margin-bottom:5px;
+	width:650px;
+}
+
+#cart{
+
+	position:absolute;
+	left:460px;
+	top:68px;
+	
+	box-shadow: 4px 4px 3px #888888;
+	border:2px solid #008080;
+    background: white;
+	height:260px;
+	width:220px;
+}
+
+#selectedItem{
+	position:relative;
+	height:190px;
+	overflow:auto;
+	font-size:100%;
+	text-align:left;
+}
+#showtotal{
+	height:30px;
+
+}
+
+#orderSubmitbutton{
+	position:absolute;
+	left:70px;
+	top:230px;
+}
+@keyframes example {
+   
+    50%  {background-color: #AED6F1   ;}
+    100% {background-color: #F9E79F  ;}
+}
+.pos{
+	border:1px solid none;
+	margin:30px;
+	float:left;
+	width:300px;
+	height:80px;
+	
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+
+    animation-iteration-count: infinite;
+
+}
+
+.passbut{
+	border:#F52B37;
+	background-color:#F52B37;
+	border-radius:3px;
+	color:White;
+	cursor:pointer;
+	font-size:13px;
+	padding:10px 50px;
+}
+.passbut:hover{
+	background-color:#CB4335;
+	color:White;
+}
+.regbut{
+	border:#204d74;
+	background-color:#2e6da4   ;
+	border-radius:3px;
+	color:White;
+	cursor:pointer;
+	font-size:13px;
+	padding:10px 50px;
+}
+.regbut:hover{
+	border:#204d74;
+	background-color:#286090    ;
+	color:White;
+}
+.checkout{
+	border:#FC2929;
+	background-color:#FC2929  ;
+	border-radius:3px;
+	color:White;
+	cursor:pointer;
+	font-size:13px;
+	padding:7px 30px;
+}
+.checkout:hover{
+	border:#F94F4F;
+	background-color:#F94F4F   ;
+	color:White;
+}
+
+
+footer{
+	position:relative;
+	top:50%;
+	transform: translateY(-50%);
+}
+
+
+

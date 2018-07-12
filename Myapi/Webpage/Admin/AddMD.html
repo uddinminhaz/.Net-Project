@@ -1,0 +1,92 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" href="../../Contents/UserDesign_Base.css">
+    <script type="text/javascript" src="../../Contents/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="../../Contents/admincript.js"></script>
+
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+
+    <title>Online RAM Banking:Add MD</title>
+</head>
+<body>
+    <div id="wholeBody">
+        <div id="topHead">
+            <header>
+                <div id="logoadmin">
+                    <img src="">
+                </div>
+                <p><h1 id="textadmin">Welcome </b><label id="headname"></label></h1></p>
+                <div id="divtop">
+
+                </div>
+
+            </header>
+        </div>
+
+        <div id="sidebar">
+            <script>
+                $(document).ready(function () {
+                    $("#sidebar").load("AdminSide.html");
+                });
+            </script>
+        </div>
+
+        <div id="mainbody">
+            <div id="content">
+                <h2>Add MD</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><b>UserName</b></td>
+                            <td>:</td>
+                            <td><input type="text" id="User_Name" required="" class="input_text" /></td>
+                        </tr>
+                        <tr>
+                            <td><b>Address</b></td>
+                            <td>:</td>
+                            <td><input type="text" id="User_address" required="" class="input_text" /></td>
+                        </tr>
+                        <tr>
+                            <td><b>Password</b></td>
+                            <td>:</td>
+                            <td><input type="password" id="User_password" required="" class="input_text" /></td>
+                        </tr>
+                        <tr>
+                            <td><b>Mobile No</b></td>
+                            <td>:</td>
+                            <td><input type="tel" id="User_mobile" onkeypress='validate(event)' required="" class="input_text" maxlength="11" /></td>
+                        </tr>
+                        <tr>
+                            <td><button id="addEmpClk">Add</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="foot">
+                <footer>
+                    <div color="red">
+                        <b>
+                            © RAM Bank LTD. 2014</b>
+                            </br><a id="aboutUs" href="">About Us</a>
+                    </div>
+                    <label id="msg"></label>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    function validate(evt) {
+        var theEvent = evt || window.event;
+        var key = theEvent.keyCode || theEvent.which;
+        key = String.fromCharCode(key);
+        var regex = /[0-9]|\./;
+        if (!regex.test(key)) {
+            theEvent.returnValue = false;
+            if (theEvent.preventDefault) theEvent.preventDefault();
+        }
+    }
+</script>

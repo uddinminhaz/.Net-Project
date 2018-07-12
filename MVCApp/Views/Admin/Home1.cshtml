@@ -1,0 +1,51 @@
+﻿@model MVCRepository.Admin
+
+@{
+    ViewBag.Title = "Home1";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Home</h2>
+
+<div>
+    <h4>Admin</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Admin_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Admin_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Admin_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Admin_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Admin_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Admin_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Admin_mobile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Admin_mobile)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Admin_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,67 @@
+﻿@model APIEntity.User
+
+@{
+    ViewBag.Title = "Home1";
+    Layout = "~/Views/Shared/_userlayout.cshtml";
+}
+
+<h2>Home</h2>
+
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.User_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User_password)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User_password)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User_address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User_mobile)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User_mobile)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User_balance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User_balance)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User_acc_type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User_acc_type)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.User_acc_no }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
